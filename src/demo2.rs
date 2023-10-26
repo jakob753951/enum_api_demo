@@ -18,7 +18,7 @@ pub fn main() {
 	// 	error: Some("But we're loading and we have an error".to_string()),
 	// };
 	// let result = get_component(state);
-	// println!("{result}");
+	// println!("Using state {state:?}:\n'{result}'");
 }
 
 fn get_component(state: &State<String>) -> String {
